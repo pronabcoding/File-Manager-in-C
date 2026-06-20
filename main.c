@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
         int show_details = 0;
 
         for (int i = 3; i < argc; i++) {
-            if (strcmp(argv[i], "-a") == 0) show_hidden  = 1;
+            if (strcmp(argv[i], "-a") == 0) show_hidden = 1;
             if (strcmp(argv[i], "-l") == 0) show_details = 1;
         }
         list_directory(path, show_hidden, show_details);
