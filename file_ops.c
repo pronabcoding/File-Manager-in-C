@@ -7,6 +7,7 @@ int copy_file(const char *src, const char *dest) {
     if (!in) {
         fprintf(stderr, COLOR_RED "Error: Cannot open source '%s'\n" COLOR_RESET, src);
         return 0;
+        
     }
 
     FILE *out = fopen(dest, "wb");
