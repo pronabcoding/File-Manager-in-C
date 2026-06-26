@@ -54,7 +54,7 @@ void print_help(void) {
     printf("  " COLOR_YELLOW "find" COLOR_RESET "  <dir> <pattern>    Search files (supports wildcards)\n");
     printf("  " COLOR_YELLOW "help" COLOR_RESET "                     Show this help\n\n");
 
-    printf(COLOR_BOLD "Examples:\n" COLOR_RESET);
+    printf(COLOR_BOLD "Examples: \n" COLOR_RESET);
     printf("  ./file_manager ls . -l\n");
     printf("  ./file_manager cp notes.txt backup/notes.txt\n");
     printf("  ./file_manager find . \"*.c\"\n");
